@@ -6,8 +6,8 @@ const routes: Routes = [{
   path: '',
   component: DefaultComponent,
   children: [
-    { path: '', loadChildren: () => import('./modules/default/default.module').then(m => m.DefaultModule) },
-    { path: 'lazy', loadChildren: () => import('./modules/lazy/lazy.module').then(m => m.LazyModule) }
+    { path: '', loadChildren: () => import('./features/default/default.module').then(m => m.DefaultModule) },
+    { path: 'lazy', loadChildren: () => import('./features/lazy/lazy.module').then(m => m.LazyModule) }
   ]
 }];
 

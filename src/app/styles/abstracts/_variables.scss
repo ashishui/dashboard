@@ -1,0 +1,17 @@
+// Font Variables
+// $roboto-slab: 'Roboto Slab', serif;   
+// $open-sans: 'Open Sans', sans-serif;
+/*
+//overriding bootstrap defaults variables
+//$link-color: theme-color("primary") !default;.
+This makes Bootstrap use our values instead of its default values. 
+Those defaults are defined in ~bootstrap/scss/variables . For instance, $link-color: theme-color("primary") !default;.
+*/
+
+$link-color: #3f51b5;
+$link-hover-color: currentColor;
+$link-hover-decoration: none;
+$label-margin-bottom: 0;
+
+
+
